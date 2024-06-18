@@ -29,3 +29,9 @@ components ka first letter capital hona chayie kyoki HTML tags or components tag
 return krte wqt hum ek single parent HTML element return krte hai aisa kbhi hona chayie ki 2 parent HTML element return krr rhe hoo or
 (Single HTML parent element hi return krna hoga)
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+JSX :
+user defined components Capital letter se start hote hai || file ka nam bhi capital se start hota hai || function ka bhi
+
+jab bhi function jsx return krte hai ek single parent(final root element single hona chayie & child kitne bhi ho skte hai) element ho return krna hoga
+
+JSX me fragement de skte hai <></> empty tag de skte hai jisse tum elements ko single parent me wrap bhi krr denge or extra element bhi add nhi hoga
