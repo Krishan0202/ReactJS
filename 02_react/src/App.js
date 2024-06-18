@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Person from "./Person";
+import Button from "./Button";
+import Header from "./Header";
+import List from "./List";
 function App() {
+  const handleClickButton = () => {
+    console.log("Button was clicked");
+    document.body.style.color = "white";
+    document.body.style.backgroundColor = "black";
+  };
+
+  const items = ["Krishan", "Kumar", "Sharma", "Kataria"];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header title={"This Made Krishan Kataria"} />
+      <Person name="Krishan" age="23" />
+      <Button text={"Click Me"} onClick={handleClickButton} />
+      <List items={items} />
+    </>
   );
 }
 
