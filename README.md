@@ -35,3 +35,7 @@ user defined components Capital letter se start hote hai || file ka nam bhi capi
 jab bhi function jsx return krte hai ek single parent(final root element single hona chayie & child kitne bhi ho skte hai) element ho return krna hoga
 
 JSX me fragement de skte hai <></> empty tag de skte hai jisse tum elements ko single parent me wrap bhi krr denge or extra element bhi add nhi hoga
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Hooks : simple utility function (helper function) hai (koi ek specific task krne me apki help krta hai)
+bhut sarre hooks react default bhi proivde krta hai or hum khud bhi bna skte hai
