@@ -1,8 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Card from "./Card";
+import Grid from "./Grid";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Grid numberOfCard={9} />
+    </>
+  );
 }
 
 export default App;
