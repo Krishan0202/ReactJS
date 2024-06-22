@@ -6,3 +6,24 @@
   justify-content: space-between;
   align-items: center;
 }
+.turn-highlight {
+  color: #fff;
+  text-align: center;
+}
+.hidden-text {
+  padding-top: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+.turn-highlight-2 {
+  color: #fff;
+}
+.reset {
+  background-color: rgb(252, 248, 248);
+  color: rgb(26, 2, 2);
+  border-radius: 10px;
+  height: 90%;
+}

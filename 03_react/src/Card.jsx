@@ -1,14 +1,18 @@
 import Icon from "./Icon";
-import './Card.css'
+import "./Card.css";
 
-function Card({ player }) {
+function Card({ player, onPlay, index }) {
   let icon = <Icon />;
   if (player === "X") {
     icon = <Icon name="cross" />;
   } else if (player === "O") {
     icon = <Icon name="circle" />;
   }
-  return <div className="card">{icon}</div>;
+  return (
+    <div className="card" onClick={() => onPlay(index)}>
+      {icon}
+    </div>
+  );
 }
 
 export default Card;
