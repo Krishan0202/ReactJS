@@ -1,0 +1,24 @@
+.container {
+  height: 65vh;
+  width: 25vw;
+  border: 1px solid #dadada;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: 80%;
+  height: 4vh;
+
+  margin: 0.5vh 0;
+}
+button {
+  width: 83%;
+  height: 5vh;
+  background-color: #007bff;
+  color: #fff;
+  margin: 0.5vh 0;
+  border: none;
+}
